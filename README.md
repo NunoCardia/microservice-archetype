@@ -117,12 +117,11 @@ The existing archetype input values are the following:
 ### Updating the archetype
 
 The existing archetype will need to be maintained by the microservices developers, existing the need to update this
-baseline along with the project evolution. Every time that an new module, lib or another common component is identified,
-it should be added to this archetype baseline, along with the corresponding documentation.
+baseline along with the project evolution. Every time that a new component is identified, it should be added to this archetype baseline otherwise 
+it will not appear once you create the service from the archetype.
 
 The majority of the information necessary to update this baseline is present in the archetype resources, under the
-'archetype-resources' and 'META-INF' directories. For further information about how to modify it, please find useful links
-in this readme last topic.
+'archetype-resources' directory.
 
 ### Generating a new microservice
 
