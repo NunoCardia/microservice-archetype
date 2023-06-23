@@ -1,0 +1,9 @@
+apiVersion: v1
+appVersion: "1.0"
+description: Helm chart for the
+name:
+version: 0.1.0
+icon: https://miro.medium.com/max/440/1*rT1GZGSg0ysiqCw5mgr4WA.png
+maintainers:
+  - name: "fnuno"
+    email: nunocardia21@gmail.com

@@ -1,0 +1,12 @@
+package it.pkg.rest.dto;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Date;
+
+@Data
+@NoArgsConstructor
+public class TestRequest {
+
+}

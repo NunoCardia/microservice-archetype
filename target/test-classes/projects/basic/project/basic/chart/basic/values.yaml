@@ -1,0 +1,20 @@
+docker:
+  registry: http://localhost:50001
+  repository: fda
+  image:
+    version: latest
+  container:
+    port: 9100
+
+kubernetes:
+  namespace: fda
+  replicas: 1
+  resources:
+    limits:
+      memory: 500Mi
+      cpu: 1000m
+    requests:
+      memory: 200Mi
+      cpu: 250m
+  service:
+    type: ClusterIP
